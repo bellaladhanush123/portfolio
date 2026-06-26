@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 import { toast } from "sonner";
 import { Toaster } from "@/components/ui/sonner";
-import heroImg from "@/assets/hero-workspace.jpg";
+import heroImg from "@/hooks/assets/hero-workspace.jpg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
